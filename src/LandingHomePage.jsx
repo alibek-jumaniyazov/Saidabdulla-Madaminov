@@ -45,22 +45,28 @@ export default function LandingHomePage() {
           <p>Shoshiling! Joylar soni cheklangan</p>
         </div>
         <div className="mainInfos">
-          <p>1 Hafta Ichida :</p>
+          <p>0 ni 1 qilish kouching dasturi kimlar uchun ?</p>
           <ul>
             <div className="MinInfosLi">
-              <li>Kontraktingizni 5 yildan keyin to’laysiz Xavotir olmang foizsiz bosh og’riqlarsiz ta’lim krediti xavotirga o’rin yo’q</li>
+              <li>Reklamaga ko’p byujet sarflab, kelgan mijozlarni ushlab qola olmayotgan yurib turgan bizneslar uchun.</li>
             </div>
             <div className="MinInfosLi">
-              <li>Boshingizni devorga urish shart bo’lmagan xolda Imtixonga kirish yoki javob kutish shart emas</li>
+              <li>Xodimlari o’zidek ma’sulyat sezmay, o’zidek sota olmay, faqat kunlik oylikni bilib asabdan bosh ko’tarolmaydiganlar uchun.</li>
             </div>
             <div className="MinInfosLi">
-              <li>Hafta davomida sizga 1000$ qiymatdagi biznes treninglar SMM mobilografiya treding online darsliklari sovg’a qilinadi </li>
+              <li>Bir martalik sotib oluvchilarni yoki adashib murojat qilganlarni umrlik mijozga aylantirishni xoxlovchilar uchun.</li>
             </div>
             <div className="MinInfosLi">
-              <li>Kontrakt to’lovingizni 1 mln to’lab beriladi va registratsiya to’lovidan ozod bo’lasiz natijada faqatgina kompaniya to’lovini qilasiz </li>
+              <li>Sotuv bo’limni yaratib uni biznes egasisiz boshqaruvni qo’liga oluvchi gladiorlarni izlayotganlar uchun.</li>
             </div>
             <div className="MinInfosLi">
-              <li>Hafta davomida universitetni o’rganib chiqishingiz uchun video roliklar Prezentatsiyalar ofisimizda oilangiz bilan uchrashuvlar</li>
+              <li>Internet orqali, Qo’ng’iroqlar orqali, Uchrashuvlar orqali sotuvlarni tizimli bo’lishini istaganlar uchun.</li>
+            </div>
+            <div className="MinInfosLi">
+              <li>Eshikdan kirgan har bir mijozni pulga aylantirib qimmat sota oladigan sotuv mashinasiga ega bo’lishim shart deganlar uchun.</li>
+            </div>
+            <div className="MinInfosLi">
+              <li>Bozorda konkurentlari qo’rqadigan eng kuchli o’yinchiga aylanishni narx sindirishsalar ham shu narxni o’zida sota olishni istaganlar uchun.</li>
             </div>
           </ul>
         </div>
