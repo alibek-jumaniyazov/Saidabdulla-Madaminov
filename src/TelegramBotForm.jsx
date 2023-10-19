@@ -7,7 +7,7 @@ import YuborishTgPage from './YuborishTgPage';
 const TelegramBotForm = ({  }) => {
 
   const [yuborishTg, setYuborishTg] = useState('none');
-  const [sale, setSale] = useState('Hizmat');
+  // const [sale, setSale] = useState('Hizmat');
   
 
   const [formData, setFormData] = useState({
@@ -17,8 +17,6 @@ const TelegramBotForm = ({  }) => {
   });
 
 
- 
-  
 
 
 
@@ -38,8 +36,8 @@ const TelegramBotForm = ({  }) => {
       Yangi foydalanuvchi:  
       Name: ${formData.name}
       Telefon Raqam: ${formData.tel}
-      ${sale} sotuvi: ${formData.sotuv}
-      Nima sotishi: ${sale}
+      Qanday sotuvi: ${formData.sotuv}
+      
 
     `;
 
@@ -86,16 +84,16 @@ const TelegramBotForm = ({  }) => {
               <p>Telefon raqamingiz</p>
               <input type="tel" name="tel" placeholder="Telefon raqam" value={formData.tel} onChange={handleChange} />
             </div>
-            <div className="inputTitle">
+            {/* <div className="inputTitle">
               <p>Nima sotishingizni tanlang</p>
               <select className='selectViloyat' onChange={(e) => setSale(e.target.value)}>
                 <option value="Hizmat">Hizmat sotaman</option>
                 <option value="Mahsulot">Mahsulot sotaman</option>
               </select>
-            </div>
+            </div> */}
             <div className="inputTitle">
-              <p>Qanaqa {sale} sotasiz ?</p>
-              <input type="text" name="sotuv" placeholder={`Iltmos qanaqa ${sale} sotishingizni yozing!`} value={formData.sotuv} onChange={handleChange} />
+              <p>Qanday mahsulot yoki hizmat sotasiz ?</p>
+              <input type="text" name="sotuv" placeholder={`Qanday mahsulot yoki hizmat sotishingizni yozing!`} value={formData.sotuv} onChange={handleChange} />
             </div>
          
         </div>
