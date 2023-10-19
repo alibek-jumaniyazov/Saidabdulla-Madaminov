@@ -36,7 +36,7 @@ export default function LandingHomePage() {
           <div className="imgButton">
             {/* <img src={img1} alt="" /> */}
             <div id="video-wrapper">
-              <video controls width="350" height="220" poster={poster1} >
+              <video controls width="100%"  height="220" poster={poster1} >
                 <source src={video1} type='video/mp4' />
               </video>
             </div>
@@ -46,7 +46,7 @@ export default function LandingHomePage() {
         </div>
         <div className="mainInfos">
           <p>Ushbu imkoniyatlar sizni uxlatmayotgan bo’lsa kursda o’qing!</p>
-          <ul>
+          <ol>
             <div className="MinInfosLi">
               <li>Reklamaga ko’p byujet sarflab, kelgan mijozlarni ushlab qola olmayotgan yurib turgan bizneslar uchun.</li>
             </div>
@@ -68,7 +68,7 @@ export default function LandingHomePage() {
             <div className="MinInfosLi">
               <li>Bozorda konkurentlari qo’rqadigan eng kuchli o’yinchiga aylanishni narx sindirishsalar ham shu narxni o’zida sota olishni istaganlar uchun.</li>
             </div>
-          </ul>
+          </ol>
         </div>
       </div>
       <div className="footer">
