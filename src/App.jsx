@@ -3,7 +3,7 @@ import TelegramBotForm from './TelegramBotForm.jsx'
 import LandingHomePage from './LandingHomePage.jsx'
 import YuborishTgPage from './YuborishTgPage.jsx'
 import {Routes , Route} from 'react-router-dom'
-import LandingHomeSotuvPage from './Sotuv Page/LandingHomeSotuvPage.jsx'
+import LandingHomeSotuvPage from './LandingHomeSotuvPage.jsx'
 function App() {
 
    const [tillar , setTillar] = useState("https://t.me/+gSrDzdbWQac1NmYy")
