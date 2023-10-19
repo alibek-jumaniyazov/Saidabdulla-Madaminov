@@ -5,8 +5,7 @@ export default function YuborishTgPage({ yuborishTg }) {
   return (
     <div className={yuborishTg}>
       <h1>Oxirgi qadam qoldi!</h1>
-      <p>Har bir gap ispoti bilan bo’lgani yaxshi 
-Quyidagi tugmani bosing universitet va hujjatlar talabalar bilan tanishib chiqing</p>
+      <p>Har bir gap ispoti bilan bo’lgani yaxshi. Kouching metodikasi kafolatlangan tugmani ustiga bosing va shular bilan to’liq tanishib chiqing.</p>
       <img src="" alt="" />
       <a href={'https://t.me/saidabdullo_madaminov'}><button className='button'>
         <div class="svg-wrapper-1">
