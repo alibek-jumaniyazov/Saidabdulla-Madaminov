@@ -27,9 +27,8 @@ export default function LandingHomePage() {
         </div>
         <div className="mainTextDiv">
            <h5 className="mainText">
-          Keyingi yilni kutmang
-          Vaqt sotib olishni imkoni yo’q
-          1 hafta ichida O’zbekistonda talaba bo’ling
+           Biznesingiz sotuvida sezon kutishni bas qiling.
+          51 kun ichida sezon yaratishni o’rganing !
         </h5>
         </div>
        
