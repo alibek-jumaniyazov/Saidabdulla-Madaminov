@@ -45,7 +45,7 @@ export default function LandingHomePage() {
           <p>Jami 15 ta joy, 6 ta joy qoldi!</p>
         </div>
         <div className="mainInfos">
-          <p>O'qing Yoki O'qiting!</p>
+          <p>Ushbu imkoniyatlarga egalik qilish hisi sizni uxlatmayotgan bo’lsa, kursda o’qing yoki o’qiting !</p>
           <ol>
             <div className="MinInfosLi">
               <li>Reklamaga ko’p byujet sarflab, kelgan mijozlarni ushlab qola olmayotgan yurib turgan bizneslar uchun.</li>
