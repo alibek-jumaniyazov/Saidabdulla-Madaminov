@@ -158,6 +158,8 @@ header p {
     line-height: 23px;
     height: 19px;
     color: #001F8D;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .mainInfos ul {

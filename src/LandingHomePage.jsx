@@ -22,8 +22,8 @@ export default function LandingHomePage() {
       </div>
       <div className="main">
         <div className="mainHeaderInfo">
-          <p>15 - SENTABR</p>
-          <span>Talim Rivoj</span>
+          <p>27 - OKTABR</p>
+          <span>Dars Boshlanadi</span>
         </div>
         <div className="mainTextDiv">
            <h5 className="mainText">
@@ -42,10 +42,10 @@ export default function LandingHomePage() {
             </div>
             <Link to={'register'}>  <button>Ro'yxatdan o'tish</button></Link>
           </div>
-          <p>Shoshiling! Joylar soni cheklangan</p>
+          <p>Jami 15 ta joy, 6 ta joy qoldi!</p>
         </div>
         <div className="mainInfos">
-          <p>0 ni 1 qilish kouching dasturi kimlar uchun ?</p>
+          <p>Ushbu imkoniyatlar sizni uxlatmayotgan bo’lsa kursda o’qing!</p>
           <ul>
             <div className="MinInfosLi">
               <li>Reklamaga ko’p byujet sarflab, kelgan mijozlarni ushlab qola olmayotgan yurib turgan bizneslar uchun.</li>
