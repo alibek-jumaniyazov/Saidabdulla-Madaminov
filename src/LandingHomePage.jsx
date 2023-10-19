@@ -45,7 +45,7 @@ export default function LandingHomePage() {
           <p>Jami 15 ta joy, 6 ta joy qoldi!</p>
         </div>
         <div className="mainInfos">
-          <p>Ushbu imkoniyatlar sizni uxlatmayotgan bo’lsa kursda o’qing!</p>
+          <p>O'qing Yoki O'qiting!</p>
           <ol>
             <div className="MinInfosLi">
               <li>Reklamaga ko’p byujet sarflab, kelgan mijozlarni ushlab qola olmayotgan yurib turgan bizneslar uchun.</li>
@@ -73,8 +73,8 @@ export default function LandingHomePage() {
       </div>
       <div className="footer">
         <div className="footerOne">
-          <p className="footerName">Ta'lim Rivoj Company</p>
-          <span className="academyInfo">Talaba bo’lish uchun.Talabalikga hujjat topshirish 25.09.2023 yilgacha davom etadi
+          <p className="footerName">Ta'lim Rivoj</p>
+          <span className="academyInfo">Ro’yxatdan o’tish 27.10.2023 yilgacha davom etadi.
             Manzil: Darital Savdo Majmuasi Hyundai Avto Salon yonida </span>
           <p className="phoneNumber">+998 90 077 00 67</p>
           <span className="infoData">Barcha huquqlar himoyalangan, 2023.</span>

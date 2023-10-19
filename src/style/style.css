@@ -160,7 +160,6 @@ header p {
     height: 19px;
     color: #ffffff;
     text-align: center;
-    margin-bottom: 20px;
     width: 90%;
 }
 
@@ -211,8 +210,8 @@ header p {
 }
 
 .footerName {
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 28px;
+    font-weight: 600;
     line-height: 28px;
     text-align: center;
 }
@@ -221,7 +220,7 @@ header p {
     font-size: 12px;
     font-weight: 400;
     line-height: 17px;
-    width: 242px;
+    width:90%;
     text-align: center;
 }
 

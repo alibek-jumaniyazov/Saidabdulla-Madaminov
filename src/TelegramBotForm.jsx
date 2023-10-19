@@ -7,11 +7,13 @@ import YuborishTgPage from './YuborishTgPage';
 const TelegramBotForm = ({  }) => {
 
   const [yuborishTg, setYuborishTg] = useState('none');
-  const [tuman, setTuman] = useState('Urganch shahri');
+  const [sale, setSale] = useState('Hizmat');
+  
 
   const [formData, setFormData] = useState({
     name: '',
     tel: '+998 ',
+    sotuv: '',
   });
 
 
@@ -36,7 +38,8 @@ const TelegramBotForm = ({  }) => {
       Yangi foydalanuvchi:  
       Name: ${formData.name}
       Telefon Raqam: ${formData.tel}
-      Yashash joyi: ${tuman}
+      ${sale} sotuvi: ${formData.sotuv}
+      Nima sotishi: ${tuman}
 
     `;
 
@@ -77,22 +80,23 @@ const TelegramBotForm = ({  }) => {
           <div className="inputTitle">
             <p>Ism Familiya</p>
             <input type="text" name="name" placeholder="Ism Familiya" value={formData.name} onChange={handleChange} />
+          </div>
+
             <div className="inputTitle">
               <p>Telefon raqamingiz</p>
               <input type="tel" name="tel" placeholder="Telefon raqam" value={formData.tel} onChange={handleChange} />
             </div>
             <div className="inputTitle">
-              <p>Nima sotasiz ?</p>
-              <select className='selectViloyat' onChange={(e) => setTuman(e.target.value)}>
-                <option value="Hizmat sotaman">Hizmat sotaman</option>
-                <option value="Mahsulot sotaman">Mahsulot sotaman</option>
+              <p>Nima sotishingizni tanlang</p>
+              <select className='selectViloyat' onChange={(e) => setSale(e.target.value)}>
+                <option value="Hizmat">Hizmat sotaman</option>
+                <option value="Mahsulot">Mahsulot sotaman</option>
               </select>
             </div>
             <div className="inputTitle">
-              <p>Telefon raqamingiz</p>
-              <input type="tel" name="tel" placeholder="Telefon raqam" value={formData.tel} onChange={handleChange} />
+              <p>Qanaqa {sale} sotasiz ?</p>
+              <input type="text" name="sotuv" placeholder={`Iltmos qanaqa ${sale} sotishingizni yozing!`} value={formData.sotuv} onChange={handleChange} />
             </div>
-          </div>
          
         </div>
          <button type="submit" className='modalButton'> 
