@@ -13,9 +13,9 @@ export default function LandingHomePage() {
       <div className="header">
         <div className="animated-text">
           <img src={img} alt="" width={"120px"} />
-          <div className="line">O'zbekiston Diplomi</div>
+          <div className="line">Yo’qdan bor qiling !</div>
           <img src={img} alt="" width={"120px"} />
-          <div className="line">O'zbekiston Universiteti</div>
+          <div className="line">Yo’qdan bor qiling !</div>
           <img src={img} alt="" width={"120px"} />
 
         </div>
