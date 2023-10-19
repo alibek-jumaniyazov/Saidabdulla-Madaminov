@@ -51,7 +51,7 @@ export default function LandingHomePage() {
               <li>Reklamaga ko’p byujet sarflab, kelgan mijozlarni ushlab qola olmayotgan yurib turgan bizneslar uchun.</li>
             </div>
             <div className="MinInfosLi">
-              <li>Xodimlari o’zidek ma’sulyat sezmay, o’zidek sota olmay, faqat kunlik oylikni bilib asabdan bosh ko’tarolmaydiganlar uchun.</li>
+              <li>Xodimlari o’zidek ma’sulyat sezmay, o’zidek sota olmay, faqat kunlik oylikni bilib asabdan bosh ko'tarolmay qolganlar uchun.</li>
             </div>
             <div className="MinInfosLi">
               <li>Bir martalik sotib oluvchilarni yoki adashib murojat qilganlarni umrlik mijozga aylantirishni xoxlovchilar uchun.</li>
