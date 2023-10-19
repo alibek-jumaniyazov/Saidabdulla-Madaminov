@@ -8,7 +8,7 @@ export default function YuborishTgPage({ yuborishTg }) {
       <p>Har bir gap ispoti bilan bo’lgani yaxshi 
 Quyidagi tugmani bosing universitet va hujjatlar talabalar bilan tanishib chiqing</p>
       <img src="" alt="" />
-      <a href={'https://t.me/+DRbxAuPUWy5mYTUy'}><button className='button'>
+      <a href={'https://t.me/saidabdullo_madaminov'}><button className='button'>
         <div class="svg-wrapper-1">
           <div class="svg-wrapper">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">

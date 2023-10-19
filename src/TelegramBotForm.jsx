@@ -39,7 +39,7 @@ const TelegramBotForm = ({  }) => {
       Name: ${formData.name}
       Telefon Raqam: ${formData.tel}
       ${sale} sotuvi: ${formData.sotuv}
-      Nima sotishi: ${tuman}
+      Nima sotishi: ${sale}
 
     `;
 
@@ -54,7 +54,7 @@ const TelegramBotForm = ({  }) => {
         });
         setYuborishTg('LongPage');
         // Malumotlarni uzatganizdan keyin input ishidegi malumot ochib ketadi
-        setFormData({ name: '', tel: '+998 ' });
+        setFormData({ name: '', tel: '+998 ' , sotuv:'' });
       }
 
 
