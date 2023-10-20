@@ -12,8 +12,8 @@ function App() {
         <Routes>
           <Route path='/' element={< LandingHomePage /> }/>
           <Route path='/sotuv' element={< LandingHomeSotuvPage /> }/>
-          <Route path="register" element={< TelegramBotForm setTillar={setTillar} tillar={tillar}/>} />
-          <Route path="register/tgkanal" element={<YuborishTgPage tillar={tillar}/>} />
+          <Route path="/register" element={< TelegramBotForm setTillar={setTillar} tillar={tillar}/>} />
+          <Route path="/register/tgkanal" element={<YuborishTgPage tillar={tillar}/>} />
         </Routes>
    </div>
   )
