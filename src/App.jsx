@@ -10,7 +10,7 @@ function App() {
    <div className="App">
         <Routes>
           <Route path='/' element={< LandingHomePage /> }/>
-          <Route path='/sotuv' element={< LandingHomeSotuvPage /> }/>
+          {/* <Route path='/sotuv' element={< LandingHomeSotuvPage /> }/>      */}
           <Route path="register" element={< TelegramBotForm />} />
           <Route path="register/tgkanal" element={<YuborishTgPage />} />
         </Routes>
