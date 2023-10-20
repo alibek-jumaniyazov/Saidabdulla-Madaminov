@@ -4,7 +4,7 @@ import img1 from './images/Logo.png'
 import { Link } from 'react-router-dom';
 import YuborishTgPage from './YuborishTgPage';
 
-const TelegramBotForm = ({  }) => {
+const TelegramBotForm = () => {
 
   const [yuborishTg, setYuborishTg] = useState('none');
   // const [sale, setSale] = useState('Hizmat');

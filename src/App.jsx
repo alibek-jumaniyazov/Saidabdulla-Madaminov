@@ -6,14 +6,13 @@ import {Routes , Route} from 'react-router-dom'
 import LandingHomeSotuvPage from './LandingHomeSotuvPage.jsx'
 function App() {
 
-   const [tillar , setTillar] = useState("https://t.me/+gSrDzdbWQac1NmYy")
   return (
    <div className="App">
         <Routes>
           <Route path='/' element={< LandingHomePage /> }/>
           <Route path='/sotuv' element={< LandingHomeSotuvPage /> }/>
-          <Route path="/register" element={< TelegramBotForm setTillar={setTillar} tillar={tillar}/>} />
-          <Route path="/register/tgkanal" element={<YuborishTgPage tillar={tillar}/>} />
+          <Route path="register" element={< TelegramBotForm />} />
+          <Route path="register/tgkanal" element={<YuborishTgPage />} />
         </Routes>
    </div>
   )
