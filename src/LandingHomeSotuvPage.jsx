@@ -8,7 +8,7 @@ export default function LandingHomeSotuvPage() {
 
 
   return (
-    <div className='LandingHomePage'>
+    <div className='LandingHomePage sotuvPage'>
       {/* Mobila Version */}
       <div className="header">
         <div className="animated-text">
@@ -27,8 +27,7 @@ export default function LandingHomeSotuvPage() {
         </div>
         <div className="mainTextDiv">
            <h5 className="mainText">
-           Biznesingiz sotuvida sezon kutishni bas qiling.
-          51 kun ichida sezon yaratishni o’rganing !
+           O’zingizni arzon baxolashni bas qiling. Ishsiz qolishdan ko’ra sizsiz qolish qimmatga tushadigan, 51 kun ichida Sotuv mashinasiga aylaning.
         </h5>
         </div>
        
@@ -48,25 +47,26 @@ export default function LandingHomeSotuvPage() {
           <p>Ushbu imkoniyatlarga egalik qilish hisi sizni uxlatmayotgan bo’lsa, kursda o’qing yoki o’qiting !</p>
           <ol>
             <div className="MinInfosLi">
-              <li>Reklamaga ko’p byujet sarflab, kelgan mijozlarni ushlab qola olmayotgan yurib turgan bizneslar uchun.</li>
+              <li>Zamonaviy kasb egasisiz sizda na mijoz bor, bor bo’lsa ham uzoq muddatda qimmat narxda o’zingizni sota olmaslik stressidan charchagan bo’lsangiz</li>
             </div>
             <div className="MinInfosLi">
-              <li>Xodimlari o’zidek ma’sulyat sezmay, o’zidek sota olmay, faqat kunlik oylikni bilib asabdan bosh ko'tarolmay qolganlar uchun.</li>
+              <li>Nimadan qayerdan boshlay o’xshaydimi o’xshamaydimi degan qo’rquvlardan qutilib qorong’ulikni fanarik bilan yoritib yo’lga chiqish vaqti keldi deb o’ylasangiz</li>
             </div>
             <div className="MinInfosLi">
-              <li>Bir martalik sotib oluvchilarni yoki adashib murojat qilganlarni umrlik mijozga aylantirishni xoxlovchilar uchun.</li>
+              <li>Sotuvda faoliyat yuritasiz, Ertalabdan kechgacha ish joyingizdasiz lekin vaqtga energiyaga yarasha haq olishni xoxlasangiz</li>
             </div>
             <div className="MinInfosLi">
-              <li>Sotuv bo’limni yaratib uni biznes egasisiz boshqaruvni qo’liga oluvchi gladiorlarni izlayotganlar uchun.</li>
+              <li>Sotuvni yaxshi bilmaganligingiz uchun faqatgina bepul sinov muddatdan nariga o’ta olmaslikdan qutilib muhim shaxsga aylanishni istasangiz</li>
             </div>
             <div className="MinInfosLi">
-              <li>Internet orqali, Qo’ng’iroqlar orqali, Uchrashuvlar orqali sotuvlarni tizimli bo’lishini istaganlar uchun.</li>
+              <li>Ishchi miyyadan ishlatuvchi miyyaga sakrab o’tib biznesga sherik bo’lish bilim va ko’nikmalarini egallashni maqsad qilgan bo’lsangiz</li>
             </div>
             <div className="MinInfosLi">
-              <li>Eshikdan kirgan har bir mijozni pulga aylantirib qimmat sota oladigan sotuv mashinasiga ega bo’lishim shart deganlar uchun.</li>
+              <li>Gap eshituvchi emas gapingiz o’tadigan lavozimda menejerlikdan o’tib raxbarlik bayrog’ini ko’tarishim shart desangiz</li>
             </div>
+
             <div className="MinInfosLi">
-              <li>Bozorda konkurentlari qo’rqadigan eng kuchli o’yinchiga aylanishni narx sindirishsalar ham shu narxni o’zida sota olishni istaganlar uchun.</li>
+              <li>Sizga berilgan vaqtni 150$ ga emas 1500$+ ko’tarishni va jamoaning qo’llari bilan ishlashni plan qilgan bo’lsangiz</li>
             </div>
           </ol>
         </div>
